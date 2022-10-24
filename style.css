@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body{
+    background-color: #161b22;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 50px;
+    color: #3a9ad4;
+}
+
+canvas{
+    border: 2px solid #3a9ad4;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+input{
+    padding: 15px 25px;
+    width: 250px;
+    background-color: #3a9ad4;
+    color: #161b22;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 15px;
+}
